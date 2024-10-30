@@ -1,0 +1,60 @@
+#toplevel_page_imk-dashboard .wp-menu-image img{
+    width: 21px;
+    margin-top: -1px;
+}
+.alert {
+    padding: 15px;
+    background-color: #fafafa;
+    border-left: 6px solid #7f7f84;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+       -moz-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+            box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+}
+.alert-sm {
+    padding: 10px;
+    font-size: 80%;
+}
+
+.alert-success {
+    border-color: #80D651;
+}
+.alert-info {
+    border-color: #45ABCD;
+}
+
+.alert-warning {
+    border-color: #FEAF20;
+}
+.alert-danger {
+    border-color: #d73814;
+}
+.table.table-inverse th{
+    background-color: #23282c;
+    color: #eee;
+}
+.imk-admin-header{
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.app-block {
+    box-shadow: 0px 0px 15px #ddd;
+    cursor: pointer;
+}
+.app-info {
+    padding: 20px;
+}
+h4.app-title {
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+}
+.text-center{
+    text-align: center;
+}
+.app-block .btn-default {
+    color: #555 !important;
+}

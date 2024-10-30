@@ -1,0 +1,341 @@
+.imk-page-template-default .financity-page-title, .imk-page-template-default .financity-page-title-container{
+    display: none !important;
+}
+
+.imk-content-container{
+    margin-top: 50px;
+}
+
+.imk-post-container{
+	margin-bottom: 50px;
+}
+.imk-post-image{
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+}
+
+.imk-post-title {
+    font-size: 22px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 600 !important;
+    text-overflow: ellipsis;
+    margin-bottom: 15px !important;
+    margin-top: 5px !important;
+}
+
+.imk-post-date {
+    color: #999;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px !important;
+    margin-bottom: 5px !important;
+    margin-top: 15px !important;
+}
+.btn{
+	border-radius: 3px;
+	font-size: 16px;
+    font-weight: bold;
+    padding: 15px 44px;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+
+.imk-post-description {
+    margin-bottom: 20px;
+}
+.imk-post-detail-title {
+    margin-bottom: 0;
+}
+.imk-post-detail-date {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.imk-post-detail-image-container{
+    margin-bottom: 30px;
+}
+
+/*
+investment
+*/
+.investment-new {
+    margin-bottom: 50px;
+    background-color: #eee;
+    padding: 10px;
+
+}
+.investment-title{
+
+}
+.investment-new h3 {
+    padding-bottom: 10px;
+    margin: 0 !important;
+    text-align: left;
+    font-size: 18px !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.imk-image-container {
+    position: relative;
+    overflow: hidden;
+}
+.investment-overlay {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.28);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+.investment-new:hover .investment-overlay{
+    display: block;
+}
+.investment-new table tr th{
+    background: none;
+    color: #000;
+}
+
+.investment-link {
+    text-align: center;
+    margin-top: 85px;
+}
+
+.investment-link a{
+    color: #fff !important;
+
+}
+
+.section-pad{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.imk-post-image-container{
+    margin-bottom: 20px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+.imk-contact-form {
+    box-shadow: 3px 4px 22px -5px #999;
+    padding: 25px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.bg-gray{
+    background-color: #eceff3 !important;
+    border-color: #eceff3 !important;
+}
+
+.imk-section{
+    background-image: url("../images/bg-for-inventory.jpg");
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+.form-group {
+    margin-bottom: 19px !important;
+}
+
+.imk-inventory-filter {
+    /*border: thin solid #d8e2f1;*/
+    /*padding: 20px;*/
+    margin-top: 30px;
+}
+
+.owl-nav-btn:after {
+    content: '';
+    width: 20px;
+    background-image: url(../images/right-arrow-circular-button.png);
+    background-size: cover;
+    background-position: center;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transform: rotatey(180deg);
+    text-shadow: 0 0 black;
+}
+
+.owl-right-btn.owl-nav-btn:after {
+    transform: rotatey(0deg) !important;
+}
+/*inventory*/
+.image-counter {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    background: rgba(26, 70, 131, .75);
+    padding: 10px;
+    color: #ffffff;
+    padding-right: 5px;
+}
+.image-counter:before {
+    content: '';
+    width: 0;
+    position: absolute;
+    height: 0;
+    border-style: solid;
+    right: -20px;
+    border-color: transparent #af081f;
+    border-width: 21px 0px 21px 20px;
+    top: 0;
+}
+.image-counter:before {
+    content: '';
+    width: 0;
+    position: absolute;
+    height: 0;
+    border-style: solid;
+    right: -15px;
+    border-color: transparent rgba(26, 70, 131, 0.75);
+    border-width: 21px 0px 21px 15px;
+    top: 0;
+}
+
+
+.special-price {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    background: #af081f;
+    padding: 10px;
+    color: #ffffff;
+}
+.special-price:before {
+    content: '';
+    width: 0;
+    position: absolute;
+    height: 0;
+    border-style: solid;
+    left: -20px;
+    border-color: transparent #af081f;
+    border-width: 21px 20px 21px 0px;
+    top: 0;
+}
+
+.imk-inventory-list .imk-listing-car-item-inner {
+    background-color: #fff;
+    box-shadow: 2px 5px 14px -4px #999;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 30px !important;
+}
+.imk-listing-car-item-meta {
+    padding: 18px 20px 20px 23px;
+    color: #555;
+    text-align: left;
+}
+
+.imk-car-meta-top {
+    border-bottom: 1px solid #e2e2e2;
+    min-height: 0;
+    padding-top: 13px;
+    padding-bottom: 21px;
+    margin-bottom: 15px;
+}
+
+.imk-car-title {
+    color: #1a4683;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 0;
+    font-weight: 600;
+}
+.inventory-price {
+    border-radius: 0px;
+    background-color: transparent;
+    padding: 0;
+    position: relative;
+    float: right;
+    margin-left: 23px;
+    text-align: right;
+}
+.inventory-price  .imk-normal-price {
+    line-height: 1;
+    color: #af081f;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+/*investments*/
+.imk-investment-title {
+    color: #718bde !important;
+}
+.gdlr-core-opacity-on-hover {
+    background: #fff !important;
+}
+.input-group-btn .btn{
+    padding: 10px 25px 15px !important;
+}
+.pad-b-10{
+    padding-bottom: 10px;
+}
+.review-rating-icon {
+    background-image: url(../images/star-white1.png);
+    height: 11px;
+    width: 12px;
+    display: inline-block;
+    background-size: cover;
+}
+.review-block {
+    padding: 15px;
+    box-shadow: 2px 4px 30px -4px #ddd;
+    margin-bottom: 20px;
+}
+.review-author-image {
+    margin: 0 auto;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.review-rating-outer {
+    text-align: center;
+    margin-top: -11px;
+    position: relative;
+}
+
+.review-rating {
+    margin: 0 auto;
+    min-width: 42px;
+    text-align: center;
+    background-color: #58ad64;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px;
+    display: inline-block;
+    border-radius: 18px;
+}
+
+.review-author-name {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.review-author-name small {
+    display: block;
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+.imk-review-title {
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: #000
+}
+.imk-review-comment {
+    text-align: center;
+}
+.review-author-name h5 {
+    color: #1a4683;
+}

@@ -1,0 +1,17 @@
+{
+    "name": "tbc/imk-services",
+    "description": "IMKLOUD is Tradebuilder’s next generation Marketing Automation and Interaction Management Platform.",
+    "type": "project",
+    "license": "GPLv2 or later",
+    "authors": [
+        {
+            "name": "Vinesh",
+            "email": "vineshgoyal1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4":{ "TBC\\IMK\\": "./inc" }
+    }
+}
